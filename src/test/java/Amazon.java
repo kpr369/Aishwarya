@@ -27,6 +27,7 @@ public class Amazon {
             if (ele.getText().contains("%")) {
                 System.out.println(ele.getText());
             }
+            System.out.println("Test");
         }
     }
 
