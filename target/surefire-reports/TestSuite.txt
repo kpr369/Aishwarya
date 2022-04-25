@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.592 sec <<< FAILURE!
+Login(TestNGDemo)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at TestNGDemo.Login(TestNGDemo.java:18)
+
