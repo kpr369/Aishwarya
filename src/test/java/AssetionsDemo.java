@@ -13,6 +13,7 @@ public class AssetionsDemo {
         sa.assertEquals(2,4,"safd");
         sa.assertFalse(true);
         sa.assertTrue(false);
+        sa.assertTrue(false);
 
         sa.assertAll();
     }
