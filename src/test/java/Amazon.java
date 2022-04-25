@@ -12,14 +12,14 @@ import java.util.concurrent.TimeUnit;
 public class Amazon {
 
     @Test
-    public void testNGProgram() {
+    public void testNGProgram() throws InterruptedException {
 
         WebDriverManager.edgedriver().setup();
         WebDriver driver = new EdgeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("https://www.amazon.in/");
-
+        Thread.sleep(2000);
         List<WebElement> headers = driver.findElements(By.xpath("//div[contains(@id,'desktop-grid')]//div[@class='a-cardui-header']/h2"));
 
         for (WebElement ele : headers) {
